@@ -1,0 +1,23 @@
+{
+  "name": "masebot",
+  "version": "1.0.0",
+  "description": "Plays music, but for free",
+  "main": "index.js",
+  "scripts": {
+    "deployandrun": "node deploy-commands.js && nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cuan Otto",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "discord-player": "^6.6.8",
+    "discord.js": "^14.15.2",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "eslint": "^9.2.0"
+  }
+}
