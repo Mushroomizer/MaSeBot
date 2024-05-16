@@ -4,8 +4,9 @@
   "description": "Plays music, but for free",
   "main": "index.js",
   "scripts": {
-    "deployandrun": "node deploy-commands.js && nodemon --inspect index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "node deploy-commands.js",
+    "start": "nodemon --inspect index.js",
+    "Deploy And Start": "npm run deploy && npm run start"
   },
   "author": "Cuan Otto",
   "license": "ISC",
